@@ -117,7 +117,7 @@ margin-left: 20px;
 .heading {
     padding-top:320px;
     margin-left: 40px;
-   font-size: 100px;
+   font-size: 30px;
 
 }
 .paragraph {
@@ -176,8 +176,135 @@ th,td {
 }
 
 
+/* Body & Layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fafafa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
 
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.6em;
+    margin: 15px 0;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.service p {
+    font-size: 1.1em;
+}
+
+.testimonial {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.testimonial h3 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Table for Pricing */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #333;
+    color: white;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
 
 
 
